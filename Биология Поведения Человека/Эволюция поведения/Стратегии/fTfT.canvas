@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"type":"text","text":"Сотрудничество","id":"4dd7e1e5911b4cdc","x":-619,"y":-156,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Кролик заподозрил капибару в обмане","id":"9dba18fbf79405f9","x":-260,"y":104,"width":295,"height":80,"color":"1"},
+		{"type":"text","text":"Сотрудничество","id":"85f1104f3df73dd6","x":-212,"y":-156,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Мисье Кролик","id":"ef35daef2bac8196","x":-907,"y":-155,"width":167,"height":60},
+		{"type":"text","text":"Многоувожаемая капибара","id":"1610f4a9552c2969","x":-1020,"y":125,"width":280,"height":60},
+		{"type":"text","text":"Всмысле?\nКакого хрена кролик?","id":"1dfdb7c4a996a05a","x":180,"y":104,"width":251,"height":80,"color":"1"},
+		{"type":"text","text":"Хмм, в прошлом раунде он со мной сотрудничал.\nВидимо показалось","id":"8ad09976e04908cb","x":180,"y":-183,"width":250,"height":115,"color":"4"},
+		{"type":"text","text":"Всмысле?\nКакого хрена капибара?","id":"58c9b70a69c79fd1","x":655,"y":104,"width":251,"height":80,"color":"1"},
+		{"type":"text","text":"Хмм, в прошлом раунде он со мной сотрудничал.\nВидимо показалось","id":"0991a08646fb8204","x":655,"y":-183,"width":250,"height":115,"color":"4"},
+		{"type":"text","text":"Кролик, ты разбушевался!","id":"6f5be420f1060602","x":1100,"y":104,"width":251,"height":80,"color":"1"},
+		{"type":"text","text":"Что то мы много друг друга хуярили, нужно помириться!","id":"a947c5d8489e3315","x":1100,"y":-183,"width":250,"height":115,"color":"4"},
+		{"type":"text","text":"Я поступился своими принципами ради мира!","id":"f47a52b92a43e2f6","x":1520,"y":-183,"width":250,"height":115,"color":"4"},
+		{"type":"text","text":"Мир, дружба, жвачка!","id":"91f5251b7fa60818","x":1940,"y":-183,"width":250,"height":115,"color":"4"}
+	],
+	"edges":[
+		{"id":"85e9a76799373a8d","fromNode":"ef35daef2bac8196","fromSide":"right","toNode":"4dd7e1e5911b4cdc","toSide":"left","color":"4"},
+		{"id":"3446885289bf8dda","fromNode":"1610f4a9552c2969","fromSide":"right","toNode":"4dd7e1e5911b4cdc","toSide":"left","color":"4"},
+		{"id":"e786e6aa93a62e80","fromNode":"4dd7e1e5911b4cdc","fromSide":"right","toNode":"9dba18fbf79405f9","toSide":"left","color":"3","label":"ЛОЖНЫЙ СИГНАЛ"},
+		{"id":"0100f843815e4251","fromNode":"4dd7e1e5911b4cdc","fromSide":"right","toNode":"85f1104f3df73dd6","toSide":"left","color":"4"},
+		{"id":"613a2c5f4e2e2cb4","fromNode":"9dba18fbf79405f9","fromSide":"right","toNode":"8ad09976e04908cb","toSide":"left","color":"4"},
+		{"id":"8e7cf28676bd86f8","fromNode":"85f1104f3df73dd6","fromSide":"right","toNode":"1dfdb7c4a996a05a","toSide":"left","color":"1"},
+		{"id":"315abb2997e17385","fromNode":"1dfdb7c4a996a05a","fromSide":"right","toNode":"0991a08646fb8204","toSide":"left","color":"4"},
+		{"id":"2f4a293b115215de","fromNode":"8ad09976e04908cb","fromSide":"right","toNode":"58c9b70a69c79fd1","toSide":"left","color":"1"},
+		{"id":"dd4a15a149b9454a","fromNode":"58c9b70a69c79fd1","fromSide":"right","toNode":"a947c5d8489e3315","toSide":"left","color":"4"},
+		{"id":"c00189b3e81541da","fromNode":"0991a08646fb8204","fromSide":"right","toNode":"6f5be420f1060602","toSide":"left","color":"1"},
+		{"id":"36509a7d15baec31","fromNode":"a947c5d8489e3315","fromSide":"right","toNode":"f47a52b92a43e2f6","toSide":"left","color":"3"},
+		{"id":"fd330f605361671e","fromNode":"6f5be420f1060602","fromSide":"right","toNode":"f47a52b92a43e2f6","toSide":"left","color":"4"},
+		{"id":"89a1b6ba3fc9c5e7","fromNode":"f47a52b92a43e2f6","fromSide":"right","toNode":"91f5251b7fa60818","toSide":"left","color":"4"}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"text","text":"Мисье Кролик","id":"e1e17431824e2e44","x":-620,"y":-170,"width":167,"height":60},
+		{"id":"ae40417d1e199ff1","x":-733,"y":110,"width":280,"height":60,"type":"text","text":"Многоувожаемая капибара"},
+		{"type":"text","text":"Сотрудничество","id":"620b07f07cfb965d","x":-260,"y":-170,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Кролик заподозрил капибару в обмане","id":"057e7ddb2548a4ca","x":185,"y":90,"width":295,"height":80,"color":"1"},
+		{"type":"text","text":"Сотрудничество","id":"00cbdb87a1ff6173","x":233,"y":-170,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Всмысле?\nКакого хрена кролик?","id":"f7a433e34451bf2a","x":725,"y":90,"width":251,"height":80,"color":"1"},
+		{"id":"5a1cdaeeeb33cf89","x":725,"y":-197,"width":250,"height":115,"color":"4","type":"text","text":"Хмм, в прошлом раунде он со мной сотрудничал.\nВидимо показалось"},
+		{"type":"text","text":"Всмысле?\nКакого хрена капибара?","id":"eb21369568a0b644","x":1200,"y":90,"width":251,"height":80,"color":"1"},
+		{"type":"text","text":"Хмм, в прошлом раунде он со мной сотрудничал.\nВидимо показалось","id":"aaaad0962a796925","x":1200,"y":-197,"width":250,"height":115,"color":"4"}
+	],
+	"edges":[
+		{"id":"b67b46703584c180","fromNode":"e1e17431824e2e44","fromSide":"right","toNode":"620b07f07cfb965d","toSide":"left","color":"4"},
+		{"id":"48d045d1b841a624","fromNode":"ae40417d1e199ff1","fromSide":"right","toNode":"620b07f07cfb965d","toSide":"left","color":"4"},
+		{"id":"ca14e17cc4cdb3ce","fromNode":"620b07f07cfb965d","fromSide":"right","toNode":"057e7ddb2548a4ca","toSide":"left","color":"3","label":"ЛОЖНЫЙ СИГНАЛ"},
+		{"id":"f6a0d3f397e6dc7b","fromNode":"620b07f07cfb965d","fromSide":"right","toNode":"00cbdb87a1ff6173","toSide":"left","color":"4"},
+		{"id":"c2f1e05b82019c75","fromNode":"00cbdb87a1ff6173","fromSide":"right","toNode":"f7a433e34451bf2a","toSide":"left","color":"1"},
+		{"id":"b53a9d31362fc531","fromNode":"057e7ddb2548a4ca","fromSide":"right","toNode":"5a1cdaeeeb33cf89","toSide":"left","color":"4"},
+		{"id":"5db9ba820d933fad","fromNode":"5a1cdaeeeb33cf89","fromSide":"right","toNode":"eb21369568a0b644","toSide":"left","color":"1"},
+		{"id":"60512f3350ae7698","fromNode":"f7a433e34451bf2a","fromSide":"right","toNode":"aaaad0962a796925","toSide":"left","color":"4"}
+	]
+}

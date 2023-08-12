@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"5a43e17684420f73","x":-200,"y":-100,"width":176,"height":60,"type":"text","text":"Вас обманули?"},
+		{"id":"a6b5ab119bf9e045","x":-620,"y":-100,"width":87,"height":60,"type":"text","text":"ВЫ"},
+		{"id":"79e0b9072958a64c","x":100,"y":40,"width":200,"height":60,"color":"1","type":"text","text":"Обман"},
+		{"id":"4211986b375806bd","x":100,"y":-240,"width":200,"height":60,"color":"4","type":"text","text":"Сотрудничество"},
+		{"type":"text","text":"Сотрудничество","id":"207556271d671f1c","x":-500,"y":-240,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Вас обманули?","id":"ea97d3a85b25c6a1","x":500,"y":-100,"width":176,"height":60},
+		{"type":"text","text":"Обман","id":"a0f9c7a61e6e6cac","x":800,"y":40,"width":200,"height":60,"color":"1"},
+		{"type":"text","text":"Сотрудничество","id":"101c0d0181078414","x":800,"y":-240,"width":200,"height":60,"color":"4"},
+		{"type":"text","text":"Вас обманули?","id":"c3bd441699a99b7d","x":1140,"y":-100,"width":176,"height":60},
+		{"type":"text","text":"Обман","id":"2fe564425d935fe8","x":1440,"y":40,"width":200,"height":60,"color":"1"},
+		{"type":"text","text":"Сотрудничество","id":"1c6680a8571c3ad8","x":1440,"y":-240,"width":200,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"c288713d0cc6b3e5","fromNode":"a6b5ab119bf9e045","fromSide":"top","toNode":"207556271d671f1c","toSide":"left","color":"4"},
+		{"id":"19068b4ecef681da","fromNode":"5a43e17684420f73","fromSide":"top","toNode":"4211986b375806bd","toSide":"left","color":"4","label":"НЕТ"},
+		{"id":"a4c3c743f821baa9","fromNode":"5a43e17684420f73","fromSide":"bottom","toNode":"79e0b9072958a64c","toSide":"left","color":"1","label":"ДА"},
+		{"id":"b7ae9d63134814fc","fromNode":"207556271d671f1c","fromSide":"right","toNode":"5a43e17684420f73","toSide":"left"},
+		{"id":"4f3b24323838435e","fromNode":"ea97d3a85b25c6a1","fromSide":"bottom","toNode":"a0f9c7a61e6e6cac","toSide":"left","color":"1","label":"ДА"},
+		{"id":"307f7f5a4bf20c2d","fromNode":"ea97d3a85b25c6a1","fromSide":"top","toNode":"101c0d0181078414","toSide":"left","color":"4","label":"НЕТ"},
+		{"id":"633fb0143983d531","fromNode":"c3bd441699a99b7d","fromSide":"bottom","toNode":"2fe564425d935fe8","toSide":"left","color":"1","label":"ДА"},
+		{"id":"f3b83f9337bef2e1","fromNode":"c3bd441699a99b7d","fromSide":"top","toNode":"1c6680a8571c3ad8","toSide":"left","color":"4","label":"НЕТ"},
+		{"id":"fd2246cfd561790e","fromNode":"4211986b375806bd","fromSide":"right","toNode":"ea97d3a85b25c6a1","toSide":"left"},
+		{"id":"e2f75f122de09775","fromNode":"79e0b9072958a64c","fromSide":"right","toNode":"ea97d3a85b25c6a1","toSide":"left"},
+		{"id":"a913fd19cfd4c834","fromNode":"101c0d0181078414","fromSide":"right","toNode":"c3bd441699a99b7d","toSide":"left"},
+		{"id":"268c355ab0c9d9ad","fromNode":"a0f9c7a61e6e6cac","fromSide":"right","toNode":"c3bd441699a99b7d","toSide":"left"}
+	]
+}
