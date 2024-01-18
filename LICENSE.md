@@ -1,2 +1,2 @@
 
-Copyright (C) 2023 Mr.Croller
+Copyright (C) 2023 MrCroller
